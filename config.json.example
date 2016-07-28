@@ -1,0 +1,7 @@
+{
+  "deviceName": "rccar-0",
+  "deviceType": "rccar",
+  "deviceToken": null,
+  "denhubServerHost": null,
+  "arduinoSerialPort": "/dev/ttyUSB0"
+}

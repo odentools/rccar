@@ -1,0 +1,41 @@
+{
+    "setMotorPower": {
+        "description": "Set the motor power",
+        "args": {
+            "left": "INTEGER (0,255) DEFAULT 0",
+            "right": "INTEGER (0,255) DEFAULT 0"
+        }
+    },
+    "setHeadLight": {
+        "description": "Set the brightness of head light",
+        "args": {
+            "brightness": "INTEGER(0,255) DEFAULT 0"
+        }
+    },
+    "setBlinker": {
+        "description": "Set the lighting of blinker light",
+        "args": {
+            "left": "BOOLEAN DEFAULT false",
+            "right": "BOOLEAN DEFAULT false"
+        }
+    },
+    "setRearLight": {
+        "description": "Set the lighting of rear light",
+        "args": {
+            "red": "INTEGER(0,255) DEFAULT 0",
+            "green": "INTEGER(0,255) DEFAULT 0",
+            "blue": "INTEGER(0,255) DEFAULT 0"
+        }
+    },
+    "setLCD": {
+        "description": "Set the string of display",
+        "args": {
+            "str": "STRING(0,32)"
+        }
+    },
+    "getSonic": {
+        "description": "Get a distance (unit: cm) from sonic sensor",
+        "args": {
+        }
+    }
+}
